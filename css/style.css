@@ -117,7 +117,12 @@ a:visited {
 }
 
 /* ПОРТФОЛИО */
-.product--list button {
+/* .filter-button 
+{font-family: 'Roboto', sans-serif;} */
+
+
+.products-list button {
+  font-family: 'Roboto', sans-serif;
   color: var(--main-font-color);
   background-color: #f5f4fa;
   font-weight: 500;
@@ -126,7 +131,7 @@ a:visited {
   border: 1px solid #f5f4fa;
   outline: none;
 }
-.product-list button:hover {
+.products-list button:hover {
   background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
